@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    margin: '0 18px',
+    margin: '12px 18px',
   },
   media: {
     height: 180,
