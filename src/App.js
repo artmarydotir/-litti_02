@@ -3,6 +3,8 @@ import CardList from './components/CardList';
 import Form from './components/Form';
 import Appbar from './components/Appbar';
 
+import { Container } from '@material-ui/core';
+
 const testData = [
   {
     name: 'Dan Abramov',
@@ -36,12 +38,12 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
+      <Container maxWidth="xl">
         <Appbar />
         {/* <div className="header">{this.props.title}</div> */}
         <Form handleNewProfile={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
-      </div>
+      </Container>
     );
   }
 }
