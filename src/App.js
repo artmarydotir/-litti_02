@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import CardList from './components/CardList';
 import Form from './components/Form';
 import Appbar from './components/Appbar';
@@ -102,12 +104,18 @@ class App extends React.Component {
   };
   render() {
     return (
-      <Container maxWidth="xl">
-        <Appbar />
-        {/* <div className="header">{this.props.title}</div> */}
-        <Form handleNewProfile={this.addNewProfile} />
-        <CardList profiles={this.state.profiles} />
-      </Container>
+      <Router>
+        <div>
+          <Route exact path="/">
+            <Container maxWidth="xl">
+              <Appbar />
+              {/* <div className="header">{this.props.title}</div> */}
+              <Form handleNewProfile={this.addNewProfile} />
+              <CardList profiles={this.state.profiles} />
+            </Container>
+          </Route>
+        </div>
+      </Router>
     );
   }
 }

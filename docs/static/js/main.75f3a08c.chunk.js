@@ -1,73 +1,71 @@
 (this.webpackJsonpgitcard = this.webpackJsonpgitcard || []).push([
   [0],
   {
-    63: function (e, t, a) {
-      e.exports = a(90);
-    },
-    68: function (e, t, a) {},
-    90: function (e, t, a) {
+    100: function (e, t, a) {
       'use strict';
       a.r(t);
       var r = a(0),
-        s = a.n(r),
-        n = a(8),
-        i = a.n(n),
-        o = (a(68), a(53)),
-        l = a(26),
-        u = a(27),
-        c = a(31),
-        h = a(30),
-        m = a(127),
-        p = a(129),
-        g = a(133),
-        b = a(124),
-        d = a(131),
-        f = a(130),
-        v = a(134),
-        _ = a(132),
-        E = Object(b.a)({
+        n = a.n(r),
+        s = a(8),
+        i = a.n(s),
+        o = (a(76), a(61)),
+        l = a(30),
+        u = a(31),
+        c = a(36),
+        h = a(35),
+        m = a(59),
+        p = a(21),
+        g = a(137),
+        b = a(139),
+        d = a(143),
+        f = a(134),
+        v = a(141),
+        _ = a(140),
+        E = a(144),
+        w = a(142),
+        y = Object(f.a)({
           root: { maxWidth: 345, margin: '12px 18px' },
           media: { height: 180 },
         });
-      function w(e) {
+      function j(e) {
         var t = e,
-          a = E();
-        return s.a.createElement(
-          m.a,
+          a = y();
+        return n.a.createElement(
+          g.a,
           { className: a.root },
-          s.a.createElement(
-            p.a,
+          n.a.createElement(
+            b.a,
             null,
-            s.a.createElement(f.a, {
+            n.a.createElement(_.a, {
               className: a.media,
               image: t.avatar_url,
               title: t.name,
             }),
-            s.a.createElement(
-              d.a,
+            n.a.createElement(
+              v.a,
               null,
-              s.a.createElement(
-                _.a,
+              n.a.createElement(
+                w.a,
                 { gutterBottom: !0, variant: 'h5', component: 'h2' },
                 t.name
               ),
-              s.a.createElement(
-                _.a,
+              n.a.createElement(
+                w.a,
                 { variant: 'body2', color: 'textSecondary', component: 'p' },
                 t.bio
               )
             )
           ),
-          s.a.createElement(
-            g.a,
+          n.a.createElement(
+            d.a,
             null,
-            s.a.createElement(
-              v.a,
+            n.a.createElement(
+              E.a,
               { size: 'small', color: 'primary', href: t.url },
               'See Profile'
             ),
-            s.a.createElement(
-              v.a,
+            n.a.createElement(
+              E.a,
               { size: 'small', color: 'secondary' },
               'public repos: ',
               t.public_repos
@@ -75,13 +73,13 @@
           )
         );
       }
-      var y = a(135),
-        j = Object(b.a)({ root: { flexGrow: 1 } });
-      var N = function (e) {
+      var N = a(145),
+        x = Object(f.a)({ root: { flexGrow: 1 } });
+      var O = function (e) {
           return (
-            j(),
-            s.a.createElement(
-              y.a,
+            x(),
+            n.a.createElement(
+              N.a,
               {
                 container: !0,
                 direction: 'column',
@@ -89,12 +87,12 @@
                 alignItems: 'center',
                 spacing: 3,
               },
-              s.a.createElement(
-                y.a,
+              n.a.createElement(
+                N.a,
                 { container: !0, item: !0, xs: 12 },
                 e.profiles.map(function (e) {
-                  return s.a.createElement(
-                    w,
+                  return n.a.createElement(
+                    j,
                     Object.assign({}, e, { key: e.id })
                   );
                 })
@@ -102,29 +100,29 @@
             )
           );
         },
-        x = a(33),
-        O = a.n(x),
-        C = a(51),
-        S = a(139),
-        z = a(52),
-        M = a.n(z),
-        k = (function (e) {
+        C = a(38),
+        S = a.n(C),
+        z = a(57),
+        M = a(149),
+        k = a(58),
+        A = a.n(k),
+        T = (function (e) {
           Object(c.a)(a, e);
           var t = Object(h.a)(a);
           function a() {
             var e;
             Object(l.a)(this, a);
-            for (var r = arguments.length, s = new Array(r), n = 0; n < r; n++)
-              s[n] = arguments[n];
+            for (var r = arguments.length, n = new Array(r), s = 0; s < r; s++)
+              n[s] = arguments[s];
             return (
-              ((e = t.call.apply(t, [this].concat(s))).state = {
+              ((e = t.call.apply(t, [this].concat(n))).state = {
                 userName: '',
               }),
               (e.handleSubmit = (function () {
-                var t = Object(C.a)(
-                  O.a.mark(function t(a) {
+                var t = Object(z.a)(
+                  S.a.mark(function t(a) {
                     var r;
-                    return O.a.wrap(function (t) {
+                    return S.a.wrap(function (t) {
                       for (;;)
                         switch ((t.prev = t.next)) {
                           case 0:
@@ -138,7 +136,7 @@
                             }
                             return (
                               (t.next = 5),
-                              M.a.get(
+                              A.a.get(
                                 'https://api.github.com/users/'.concat(
                                   e.state.userName
                                 )
@@ -172,7 +170,7 @@
                 key: 'render',
                 value: function () {
                   var e = this;
-                  return s.a.createElement(
+                  return n.a.createElement(
                     'form',
                     {
                       action: '',
@@ -180,7 +178,7 @@
                       noValidate: !0,
                       autoComplete: 'off',
                     },
-                    s.a.createElement(S.a, {
+                    n.a.createElement(M.a, {
                       variant: 'outlined',
                       label: 'Github Username',
                       value: this.state.userName,
@@ -188,8 +186,8 @@
                         return e.setState({ userName: t.target.value });
                       },
                     }),
-                    s.a.createElement(
-                      v.a,
+                    n.a.createElement(
+                      E.a,
                       { type: 'submit', color: 'primary', variant: 'outlined' },
                       'Add New Card'
                     )
@@ -200,25 +198,25 @@
             a
           );
         })(r.Component),
-        A = a(136),
-        T = a(137),
-        D = Object(b.a)({
+        D = a(146),
+        P = a(147),
+        B = Object(f.a)({
           centerBtn: { textAlign: 'center', margin: '0 auto' },
           barHeight: { padding: '10px 0' },
         });
-      function P() {
-        var e = D();
-        return s.a.createElement(
+      function G() {
+        var e = B();
+        return n.a.createElement(
           'div',
           null,
-          s.a.createElement(
-            A.a,
+          n.a.createElement(
+            D.a,
             { position: 'static', color: 'secondary' },
-            s.a.createElement(
-              T.a,
+            n.a.createElement(
+              P.a,
               { className: e.barHeight },
-              s.a.createElement(
-                _.a,
+              n.a.createElement(
+                w.a,
                 { variant: 'h4', color: 'inherit', className: e.centerBtn },
                 'The Github Cards'
               )
@@ -226,8 +224,8 @@
           )
         );
       }
-      var B = a(138),
-        G = [
+      var I = a(148),
+        Z = [
           {
             avatar_url: 'https://avatars0.githubusercontent.com/u/11363931?v=4',
             bio: '/* no bio */',
@@ -315,7 +313,7 @@
             updated_at: '2020-02-01T20:14:58Z',
           },
         ],
-        I = (function (e) {
+        H = (function (e) {
           Object(c.a)(a, e);
           var t = Object(h.a)(a);
           function a(e) {
@@ -330,7 +328,7 @@
                     };
                   });
               }),
-              (r.state = { profiles: G }),
+              (r.state = { profiles: Z }),
               r
             );
           }
@@ -339,31 +337,49 @@
               {
                 key: 'render',
                 value: function () {
-                  return s.a.createElement(
-                    B.a,
-                    { maxWidth: 'xl' },
-                    s.a.createElement(P, null),
-                    s.a.createElement(k, {
-                      handleNewProfile: this.addNewProfile,
-                    }),
-                    s.a.createElement(N, { profiles: this.state.profiles })
+                  return n.a.createElement(
+                    m.a,
+                    null,
+                    n.a.createElement(
+                      'div',
+                      null,
+                      n.a.createElement(
+                        p.a,
+                        { exact: !0, path: '/' },
+                        n.a.createElement(
+                          I.a,
+                          { maxWidth: 'xl' },
+                          n.a.createElement(G, null),
+                          n.a.createElement(T, {
+                            handleNewProfile: this.addNewProfile,
+                          }),
+                          n.a.createElement(O, {
+                            profiles: this.state.profiles,
+                          })
+                        )
+                      )
+                    )
                   );
                 },
               },
             ]),
             a
           );
-        })(s.a.Component);
+        })(n.a.Component);
       i.a.render(
-        s.a.createElement(
-          s.a.StrictMode,
+        n.a.createElement(
+          n.a.StrictMode,
           null,
-          s.a.createElement(I, { title: 'The Github Cards' })
+          n.a.createElement(H, { title: 'The Github Cards' })
         ),
         document.getElementById('root')
       );
     },
+    71: function (e, t, a) {
+      e.exports = a(100);
+    },
+    76: function (e, t, a) {},
   },
-  [[63, 1, 2]],
+  [[71, 1, 2]],
 ]);
-//# sourceMappingURL=main.c79de775.chunk.js.map
+//# sourceMappingURL=main.75f3a08c.chunk.js.map
