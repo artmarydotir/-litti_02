@@ -1,6 +1,7 @@
 import React from 'react';
 import CardList from './components/CardList';
 import Form from './components/Form';
+import Appbar from './components/Appbar';
 
 const testData = [
   {
@@ -24,14 +25,21 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      profiles: testData,
+      profiles: [],
     };
   }
+  addNewProfile = (profileData) => {
+    console.log(profileData);
+    this.setState((prevState) => ({
+      profiles: [...prevState.profiles, profileData],
+    }));
+  };
   render() {
     return (
       <div>
-        <div className="header">{this.props.title}</div>
-        <Form />
+        <Appbar />
+        {/* <div className="header">{this.props.title}</div> */}
+        <Form handleNewProfile={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
       </div>
     );
