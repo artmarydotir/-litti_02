@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/litti02/static/css/main.d380089b.chunk.css",
-    "main.js": "/litti02/static/js/main.75f3a08c.chunk.js",
-    "main.js.map": "/litti02/static/js/main.75f3a08c.chunk.js.map",
+    "main.js": "/litti02/static/js/main.2ddd367d.chunk.js",
+    "main.js.map": "/litti02/static/js/main.2ddd367d.chunk.js.map",
     "runtime-main.js": "/litti02/static/js/runtime-main.87d6b46b.js",
     "runtime-main.js.map": "/litti02/static/js/runtime-main.87d6b46b.js.map",
-    "static/js/2.9b193515.chunk.js": "/litti02/static/js/2.9b193515.chunk.js",
-    "static/js/2.9b193515.chunk.js.map": "/litti02/static/js/2.9b193515.chunk.js.map",
+    "static/js/2.a584b480.chunk.js": "/litti02/static/js/2.a584b480.chunk.js",
+    "static/js/2.a584b480.chunk.js.map": "/litti02/static/js/2.a584b480.chunk.js.map",
     "index.html": "/litti02/index.html",
-    "precache-manifest.fded8ac312a91c01a5ca2d1f8a944c99.js": "/litti02/precache-manifest.fded8ac312a91c01a5ca2d1f8a944c99.js",
+    "precache-manifest.ea23154ddd42ae23accb3d2604bf43bc.js": "/litti02/precache-manifest.ea23154ddd42ae23accb3d2604bf43bc.js",
     "service-worker.js": "/litti02/service-worker.js",
     "static/css/main.d380089b.chunk.css.map": "/litti02/static/css/main.d380089b.chunk.css.map",
-    "static/js/2.9b193515.chunk.js.LICENSE.txt": "/litti02/static/js/2.9b193515.chunk.js.LICENSE.txt"
+    "static/js/2.a584b480.chunk.js.LICENSE.txt": "/litti02/static/js/2.a584b480.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.87d6b46b.js",
-    "static/js/2.9b193515.chunk.js",
+    "static/js/2.a584b480.chunk.js",
     "static/css/main.d380089b.chunk.css",
-    "static/js/main.75f3a08c.chunk.js"
+    "static/js/main.2ddd367d.chunk.js"
   ]
 }
