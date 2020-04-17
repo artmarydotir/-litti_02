@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import CardList from './components/CardList';
 import Form from './components/Form';
 import Appbar from './components/Appbar';
