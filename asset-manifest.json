@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/litti_02/static/css/main.d380089b.chunk.css",
+    "main.js": "/litti_02/static/js/main.75f3a08c.chunk.js",
+    "main.js.map": "/litti_02/static/js/main.75f3a08c.chunk.js.map",
+    "runtime-main.js": "/litti_02/static/js/runtime-main.5272f594.js",
+    "runtime-main.js.map": "/litti_02/static/js/runtime-main.5272f594.js.map",
+    "static/js/2.9b193515.chunk.js": "/litti_02/static/js/2.9b193515.chunk.js",
+    "static/js/2.9b193515.chunk.js.map": "/litti_02/static/js/2.9b193515.chunk.js.map",
+    "index.html": "/litti_02/index.html",
+    "precache-manifest.09eb58a70f867082ca1804981df9a694.js": "/litti_02/precache-manifest.09eb58a70f867082ca1804981df9a694.js",
+    "service-worker.js": "/litti_02/service-worker.js",
+    "static/css/main.d380089b.chunk.css.map": "/litti_02/static/css/main.d380089b.chunk.css.map",
+    "static/js/2.9b193515.chunk.js.LICENSE.txt": "/litti_02/static/js/2.9b193515.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5272f594.js",
+    "static/js/2.9b193515.chunk.js",
+    "static/css/main.d380089b.chunk.css",
+    "static/js/main.75f3a08c.chunk.js"
+  ]
+}
