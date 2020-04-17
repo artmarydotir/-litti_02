@@ -1,4 +1,5 @@
 {
+  "homepage": "https://artmarydotir.github.io/litti_02",
   "name": "gitcard",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,9 +46,10 @@
   "devDependencies": {
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2",
-    "prettier": "^2.0",
     "lint-staged": "^10.1.1",
+    "prettier": "^2.0",
     "pretty-quick": "^2.0"
   }
 }
